@@ -40,4 +40,151 @@ html, body {
 .pb-70 {
   padding-bottom: 70px;
 }
+
+/* Títulos */
+.title-carousel {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #f9fbfd;
+}
+
+.title-section-1 {
+  font-family: "Kaushan Script";
+  font-size: 2.8em;
+  text-align: center;
+  color: #28b471;
+}
+
+.title-card-advantages {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #28b471;
+}
+
+/* Subtitulos */
+.subtitle-carousel {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1.3em;
+  color: #f9fbfd;
+}
+
+.subtitle-card-advantages {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1em;
+  text-align: center;
+  color: #666666;
+}
+
+.subtitle-section-1 {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+/* Carousel */
+.carousel-image {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.8)), to(rgba(40, 180, 133, 0.8))), url(../../assets/img/carousel.jpg);
+  background: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../../assets/img/carousel.jpg);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 992px) {
+  .carousel-image {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  }
+}
+
+.btn-carousel-1 {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #28b471;
+  background-color: #f9fbfd;
+  border-radius: 2em;
+  padding: 8px 30px 8px 30px;
+}
+
+.btn-carousel-1:hover {
+  color: #f9fbfd;
+  background-color: transparent;
+  border: 3px solid #f9fbfd;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn-carousel-2 {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #f9fbfd;
+  background-color: transparent;
+  border: 3px solid #f9fbfd;
+  border-radius: 2em;
+  padding: 8px 30px 8px 30px;
+  margin-left: 15px;
+}
+
+.btn-carousel-2:hover {
+  color: #28b471;
+  background-color: #f9fbfd;
+  border: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media (max-width: 346px) and (max-width: 368px) {
+  .btn-carousel-2 {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+}
+
+/* Vantagens */
+.card-advantages {
+  padding: 30px 20px;
+  height: 323px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-advantages:hover {
+  -webkit-box-shadow: 0 5px 25px 0 rgba(5, 5, 5, 0.2);
+          box-shadow: 0 5px 25px 0 rgba(5, 5, 5, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.icon-advantages > i {
+  font-size: 3.5em;
+  color: #28b471;
+}
 /*# sourceMappingURL=main.css.map */
