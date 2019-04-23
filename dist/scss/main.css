@@ -9,6 +9,14 @@ html, body {
   padding: 0;
 }
 
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
 .pt-20 {
   padding-top: 20px;
 }
@@ -33,6 +41,14 @@ html, body {
   padding-bottom: 30px;
 }
 
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
 .pt-70 {
   padding-top: 70px;
 }
@@ -55,6 +71,18 @@ html, body {
   font-size: 2.8em;
   text-align: center;
   color: #28b471;
+}
+
+.title-section-2 {
+  font-family: "Kaushan Script";
+  font-size: 2.8em;
+  color: #28b471;
+}
+
+@media (max-width: 767px) {
+  .title-section-2 {
+    text-align: center;
+  }
 }
 
 .title-card-advantages {
@@ -87,6 +115,19 @@ html, body {
   font-weight: 400;
   font-size: 1.1em;
   text-align: center;
+}
+
+.subtitle-section-2 {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #666666;
+}
+
+@media (max-width: 767px) {
+  .subtitle-section-2 {
+    text-align: center;
+  }
 }
 
 /* Carousel */
@@ -186,5 +227,70 @@ html, body {
 .icon-advantages > i {
   font-size: 3.5em;
   color: #28b471;
+}
+
+/* Download */
+.download {
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(198, 198, 198, 0.5)), to(rgba(229, 229, 229, 0.5))), url(../../assets/img/backgroundDownload.jpg);
+  background: linear-gradient(to right bottom, rgba(198, 198, 198, 0.5), rgba(229, 229, 229, 0.5)), url(../../assets/img/backgroundDownload.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.download-label {
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 1.6em;
+  text-transform: uppercase;
+}
+
+.btn-download-app {
+  border-radius: 5px;
+  background-color: #050708;
+}
+
+.btn-download-app:last-child {
+  margin-left: 10px;
+}
+
+@media (max-width: 362px) {
+  .btn-download-app:last-child {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}
+
+.btn-download-app:hover {
+  background-color: #28b471;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media (max-width: 767px) {
+  .btn-download-app-content {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .download-label {
+    text-align: center;
+  }
+}
+
+@media (max-width: 362px) {
+  .btn-download-app-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=main.css.map */
