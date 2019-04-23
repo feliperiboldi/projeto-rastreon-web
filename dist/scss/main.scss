@@ -88,6 +88,12 @@ html, body {
     color: $color-1;
 }
 
+@media(max-width: 991px) {
+    .title-section-1 {
+        padding-top: 30px;  
+    }
+}
+
 .title-section-2 {
     font: {
         family: $font-secondary;
@@ -298,4 +304,60 @@ html, body {
     .btn-download-app-content {
         flex-direction: column;
     }
+}
+
+/* Rastreiamento */
+
+.form-tracking {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input-tracking {
+    font: {
+        family: $font-first;
+        weight: 600;
+        size: 1em; 
+    }
+    color: $color-1;
+    width: 40%;
+    margin-top: 15px;
+    background-color: transparent;
+    border: 2px solid $color-1;
+    border-radius: 2em;
+}
+
+@media (max-width: 767px) {
+    .input-tracking {
+        width: 70%;
+    }
+}
+
+.input-tracking:focus {
+    box-shadow: none;
+    border: 3px solid $color-1;
+}
+
+.input-tracking::placeholder {
+    font: {
+        family: $font-first;
+        weight: 400;
+        size: 1em; 
+    }
+    color: $color-1;
+}
+
+.btn-search {
+    font: {
+        family: $font-first;
+        weight: 700;
+        size: 0.96em;
+    }
+    color: $color-5;
+    background-color: $color-1;
+    border: 2px solid $color-1;
+    border-radius: 2em;
+    margin-left: -35px;
+    margin-top: 15px;
 }

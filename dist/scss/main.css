@@ -73,6 +73,12 @@ html, body {
   color: #28b471;
 }
 
+@media (max-width: 991px) {
+  .title-section-1 {
+    padding-top: 30px;
+  }
+}
+
 .title-section-2 {
   font-family: "Kaushan Script";
   font-size: 2.8em;
@@ -292,5 +298,80 @@ html, body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+
+/* Rastreiamento */
+.form-tracking {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.input-tracking {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 1em;
+  color: #28b471;
+  width: 40%;
+  margin-top: 15px;
+  background-color: transparent;
+  border: 2px solid #28b471;
+  border-radius: 2em;
+}
+
+@media (max-width: 767px) {
+  .input-tracking {
+    width: 70%;
+  }
+}
+
+.input-tracking:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 3px solid #28b471;
+}
+
+.input-tracking::-webkit-input-placeholder {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1em;
+  color: #28b471;
+}
+
+.input-tracking:-ms-input-placeholder {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1em;
+  color: #28b471;
+}
+
+.input-tracking::-ms-input-placeholder {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1em;
+  color: #28b471;
+}
+
+.input-tracking::placeholder {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1em;
+  color: #28b471;
+}
+
+.btn-search {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 0.96em;
+  color: #f9fbfd;
+  background-color: #28b471;
+  border: 2px solid #28b471;
+  border-radius: 2em;
+  margin-left: -35px;
+  margin-top: 15px;
 }
 /*# sourceMappingURL=main.css.map */
