@@ -91,6 +91,12 @@ html, body {
   }
 }
 
+.title-section-3 {
+  font-family: "Kaushan Script";
+  font-size: 2.8em;
+  color: #f9fbfd;
+}
+
 .title-card-advantages {
   font-family: "Lato";
   font-weight: 700;
@@ -136,11 +142,18 @@ html, body {
   }
 }
 
+.subtitle-section-3 {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #f9fbfd;
+}
+
 /* Carousel */
 .carousel-image {
   width: 100%;
-  background: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.8)), to(rgba(40, 180, 133, 0.8))), url(../../assets/img/carousel.jpg);
-  background: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../../assets/img/carousel.jpg);
+  background: -webkit-gradient(linear, left top, right bottom, from(#7ed56fcc), to(rgba(40, 180, 133, 0.8))), url(../../assets/img/carousel.jpg);
+  background: linear-gradient(to right bottom, #7ed56fcc, rgba(40, 180, 133, 0.8)), url(../../assets/img/carousel.jpg);
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -373,5 +386,77 @@ html, body {
   border-radius: 2em;
   margin-left: -35px;
   margin-top: 15px;
+}
+
+/* Contato */
+.contact {
+  background: -webkit-gradient(linear, left top, right bottom, from(#7ed56f), to(#28b485));
+  background: linear-gradient(to right bottom, #7ed56f, #28b485);
+}
+
+.input-contact {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 1em;
+  color: #f9fbfd;
+  background-color: transparent;
+  border: 2px solid #f9fbfd;
+  border-radius: 2em;
+}
+
+.input-contact:focus {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 1em;
+  color: #f9fbfd;
+  background-color: transparent;
+  border: 3px solid #f9fbfd;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.input-contact::-webkit-input-placeholder {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 1em;
+  color: #f9fbfd;
+}
+
+.input-contact:-ms-input-placeholder {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 1em;
+  color: #f9fbfd;
+}
+
+.input-contact::-ms-input-placeholder {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 1em;
+  color: #f9fbfd;
+}
+
+.input-contact::placeholder {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 1em;
+  color: #f9fbfd;
+}
+
+.btn-contact {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #28b471;
+  border-radius: 2em;
+  width: 100%;
+}
+
+.btn-contact:hover {
+  color: #f9fbfd;
+  background-color: #28b471;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 /*# sourceMappingURL=main.css.map */

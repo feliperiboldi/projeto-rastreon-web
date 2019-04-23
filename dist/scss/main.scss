@@ -108,6 +108,14 @@ html, body {
     }
 }
 
+.title-section-3 {
+    font: {
+        family: $font-secondary;
+        size: 2.8em;
+    }
+    color: $color-5;
+}
+
 .title-card-advantages {
     font: {
         family: $font-first;
@@ -164,11 +172,20 @@ html, body {
     }
 }
 
+.subtitle-section-3 {
+    font: {
+        family: $font-first;
+        weight: 400;
+        size: 1.1em;
+    }
+    color: $color-5;
+}
+
 /* Carousel */
 
 .carousel-image {
     width: 100%;
-    background: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../../assets/img/carousel.jpg);
+    background: linear-gradient(to right bottom, #7ed56fcc, rgba(40, 180, 133, 0.8)), url(../../assets/img/carousel.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -360,4 +377,61 @@ html, body {
     border-radius: 2em;
     margin-left: -35px;
     margin-top: 15px;
+}
+
+/* Contato */
+
+.contact {
+    background: linear-gradient(to right bottom, rgb(126, 213, 111), rgb(40, 180, 133));
+}
+
+.input-contact {
+    font: {
+        family: $font-first;
+        weight: 600;
+        size: 1em;
+    }
+    color: $color-5;
+    background-color: transparent;
+    border: 2px solid $color-5;
+    border-radius: 2em;
+}
+
+.input-contact:focus {
+    font: {
+        family: $font-first;
+        weight: 600;
+        size: 1em;
+    }
+    color: $color-5;
+    background-color: transparent;
+    border: 3px solid $color-5;
+    box-shadow: none;
+}
+
+.input-contact::placeholder {
+    font: {
+        family: $font-first;
+        weight: 600;
+        size: 1em;
+    }
+    color: $color-5;
+}
+
+.btn-contact {
+    font: {
+        family: $font-first;
+        weight: 700;
+        size: 1em;
+    }
+    text-transform: uppercase;
+    color: $color-1;
+    border-radius: 2em;
+    width: 100%;
+}
+
+.btn-contact:hover {
+    color: $color-5;
+    background-color: $color-1;
+    transition: 0.3s;
 }
