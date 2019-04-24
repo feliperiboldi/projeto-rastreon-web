@@ -459,4 +459,23 @@ html, body {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+
+/* Rodapé */
+.main-footer {
+  background-color: #f9fbfd;
+}
+
+.main-footer ul li a {
+  font-family: "Lato";
+  font-weight: 400px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.main-footer ul li a:hover {
+  border-bottom: 1px solid #333333;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
 /*# sourceMappingURL=main.css.map */
