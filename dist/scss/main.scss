@@ -31,6 +31,14 @@ html, body {
     padding-top: 20px;
 }
 
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pr-20 {
+    padding-right: 50px;
+}
+
 .pb-20 {
     padding-bottom: 20px;
 }
@@ -179,6 +187,35 @@ html, body {
         size: 1.1em;
     }
     color: $color-5;
+}
+
+/* Menu Principal */
+.main-menu {
+    box-shadow: 0 5px 25px 0 rgba(5, 5, 5, 0.2);
+    background-color: $color-3;
+}
+
+.main-menu .navbar-nav .nav-link {
+    font: {
+        family: $font-first !important;
+        weight: 700;
+        size: 0.95em;
+    }
+    text-transform: uppercase;
+    color: $color-1;
+    margin-left: 25px;
+}
+
+.main-menu .navbar-nav .nav-link:hover {
+    color: $color-1 !important;
+    border-bottom: 1px solid $color-1;
+    transition: 0.3s;
+}
+
+@media (max-width: 991px) {
+    .main-menu .navbar-nav .nav-link {
+        margin-left: 0;
+    }
 }
 
 /* Carousel */
@@ -452,7 +489,33 @@ html, body {
     color: $color-4;
 }
 
+.main-footer > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+    .main-footer > ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main-footer > ul > li {
+        margin-bottom: 10px;
+    }
+} 
+
 .main-footer ul li a:hover {
     border-bottom: 1px solid $color-4;
     transition: 0.3s;
+}
+
+.secondary-footer {
+    width: 100;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy-footer-dev > img {
+    width: 9%;
 }
