@@ -502,55 +502,11 @@ html, body {
   background-color: #f9fbfd;
 }
 
-.main-footer ul li a {
+.copy-footer {
   font-family: "Lato";
-  font-weight: 400px;
-  font-size: 0.8em;
-  text-transform: uppercase;
-  color: #333333;
-}
-
-.main-footer > ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-@media (max-width: 991px) {
-  .main-footer > ul {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .main-footer > ul > li {
-    margin-bottom: 10px;
-  }
-}
-
-.main-footer ul li a:hover {
-  border-bottom: 1px solid #333333;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.secondary-footer {
-  width: 100;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.copy-footer-dev > img {
-  width: 9%;
+  font-weight: 400;
+  font-size: 0.95em;
+  color: #050708;
+  text-align: center !important;
 }
 /*# sourceMappingURL=main.css.map */

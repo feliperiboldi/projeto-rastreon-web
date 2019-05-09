@@ -479,43 +479,12 @@ html, body {
     background-color: $color-5;
 }
 
-.main-footer ul li a {
+.copy-footer {
     font: {
         family: $font-first;
-        weight: 400px;
-        size: 0.8em; 
+        weight: 400;
+        size: 0.95em;
     }
-    text-transform: uppercase;
-    color: $color-4;
-}
-
-.main-footer > ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-@media (max-width: 991px) {
-    .main-footer > ul {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .main-footer > ul > li {
-        margin-bottom: 10px;
-    }
-} 
-
-.main-footer ul li a:hover {
-    border-bottom: 1px solid $color-4;
-    transition: 0.3s;
-}
-
-.secondary-footer {
-    width: 100;
-    display: flex;
-    justify-content: space-between;
-}
-
-.copy-footer-dev > img {
-    width: 9%;
+    color: $color-7;
+    text-align: center !important;
 }
