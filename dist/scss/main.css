@@ -502,11 +502,42 @@ html, body {
   background-color: #f9fbfd;
 }
 
+.footer-content-1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.info-footer {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #333333;
+}
+
+.info-footer > i {
+  font-size: 2em;
+  margin-right: 10px;
+}
+
+.info-footer:hover {
+  text-decoration: none;
+  color: #28b471;
+}
+
+.footer-content-2 {
+  background-color: #28b471;
+}
+
 .copy-footer {
   font-family: "Lato";
   font-weight: 400;
   font-size: 0.95em;
-  color: #050708;
-  text-align: center !important;
+  color: #f9fbfd;
+  text-align: right !important;
 }
 /*# sourceMappingURL=main.css.map */

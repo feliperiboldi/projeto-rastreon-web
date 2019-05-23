@@ -479,12 +479,41 @@ html, body {
     background-color: $color-5;
 }
 
+.footer-content-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-footer {
+    font: {
+        family: $font-first;
+        weight: 400;
+        size: 1.1em;
+    }
+    color: $color-4;
+}
+
+.info-footer > i {
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+.info-footer:hover {
+    text-decoration: none;
+    color: $color-1;
+}
+
+.footer-content-2 {
+    background-color: $color-1;
+}
+
 .copy-footer {
     font: {
         family: $font-first;
         weight: 400;
         size: 0.95em;
     }
-    color: $color-7;
-    text-align: center !important;
+    color: $color-5;
+    text-align: right !important;
 }
