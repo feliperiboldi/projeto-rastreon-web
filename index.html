@@ -38,21 +38,39 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto accessibility-menu">
+                        <li class="nav-item">
+                            <a href="#carousel" class="nav-link accessibility-link">Ir para conteúdo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#footer" class="nav-link accessibility-link">Ir para conteúdo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#footer" class="nav-link accessibility-link">Aumentar Contraste</a>
+                        </li>
+                        <li class="nav-item">
+                            <a onclick="fontSize('a')" class="nav-link accessibility-link">Aumentar Fonte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a onclick="fontSize('d')" class="nav-link accessibility-link">Diminuir Fonte</a>
+                        </li>
+                    </ul>
+
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#advantages">Vantagens</a>
+                            <a class="nav-link menu-link" href="#advantages">Vantagens</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#download">Baixar o App</a>
+                            <a class="nav-link menu-link" href="#download">Baixar o App</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#tracking">Rastrear</a>
+                            <a class="nav-link menu-link" href="#tracking">Rastrear</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contato</a>
+                            <a class="nav-link menu-link" href="#contact">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -61,7 +79,7 @@
     </header>
 
     <main class="main-content">
-        <section class="carousel-home">
+        <section class="carousel-home" id="carousel">
             <div class="carousel-image">
                 <div class="container">
                     <div class="carousel-content">
@@ -232,7 +250,7 @@
         </section>
     </main>
 
-    <footer class="main-footer">
+    <footer class="main-footer" id="footer">
         <div class="container">
             <div class="footer-content-1 pt-30 pb-30">
                 <a href="#" class="info-footer">

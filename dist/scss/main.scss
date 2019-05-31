@@ -195,27 +195,45 @@ html, body {
     background-color: $color-3;
 }
 
-.main-menu .navbar-nav .nav-link {
+.menu-link {
     font: {
         family: $font-first !important;
         weight: 700;
-        size: 0.95em;
+        size: 0.85em;
     }
     text-transform: uppercase;
-    color: $color-1;
+    color: $color-1 !important;
     margin-left: 25px;
 }
 
-.main-menu .navbar-nav .nav-link:hover {
+.menu-link:hover {
     color: $color-1 !important;
     border-bottom: 1px solid $color-1;
     transition: 0.3s;
 }
 
 @media (max-width: 991px) {
-    .main-menu .navbar-nav .nav-link {
+    .menu-link {
         margin-left: 0;
     }
+}
+
+/* Menu de Acessibilidade */
+
+.accessibility-link {
+    font: {
+        family: $font-first;
+        weight: 500;
+        size: 0.7em;
+    }
+    color: $color-7 !important;
+}
+
+.accessibility-link:hover,
+.accessibility-link:focus {
+    color: $color-1 !important;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 /* Carousel */

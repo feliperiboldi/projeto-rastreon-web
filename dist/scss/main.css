@@ -164,16 +164,16 @@ html, body {
   background-color: #ffffff;
 }
 
-.main-menu .navbar-nav .nav-link {
+.menu-link {
   font-family: "Lato" !important;
   font-weight: 700;
-  font-size: 0.95em;
+  font-size: 0.85em;
   text-transform: uppercase;
-  color: #28b471;
+  color: #28b471 !important;
   margin-left: 25px;
 }
 
-.main-menu .navbar-nav .nav-link:hover {
+.menu-link:hover {
   color: #28b471 !important;
   border-bottom: 1px solid #28b471;
   -webkit-transition: 0.3s;
@@ -181,9 +181,25 @@ html, body {
 }
 
 @media (max-width: 991px) {
-  .main-menu .navbar-nav .nav-link {
+  .menu-link {
     margin-left: 0;
   }
+}
+
+/* Menu de Acessibilidade */
+.accessibility-link {
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 0.7em;
+  color: #050708 !important;
+}
+
+.accessibility-link:hover,
+.accessibility-link:focus {
+  color: #28b471 !important;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 /* Carousel */

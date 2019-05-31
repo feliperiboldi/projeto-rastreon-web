@@ -28,3 +28,15 @@ $(function() {
         }
     });
 });
+
+function fontSize(e) {
+    let elements = $('p');
+    let font = elements.css('font-size');
+    
+    if(e == 'a') {
+        elements.css("fontSize", parseInt(font) + 1);
+    } else if(e == 'd') {
+        elements.css("fontSize", parseInt(font) - 1);
+    }
+}
+
