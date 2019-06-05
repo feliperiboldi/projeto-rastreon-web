@@ -30,13 +30,21 @@ $(function() {
 });
 
 function fontSize(e) {
-    let elements = $('p');
-    let font = elements.css('font-size');
+    let elements = [];
     
-    if(e == 'a') {
-        elements.css("fontSize", parseInt(font) + 1);
-    } else if(e == 'd') {
-        elements.css("fontSize", parseInt(font) - 1);
+    elements[0] = $('p');
+    elements[1] = $('h1');
+    elements[2] = $('h2');
+    elements[3] = $('h4');
+    elements[4] = $('h6');
+
+    for(let i = 0; i < elements.length; i++) {
+        let font = elements[i].css('font-size');
+    
+        if(e == 'a') {
+            elements[i].css("fontSize", parseInt(font) + 1);
+        } else if(e == 'd') {
+            elements[i].css("fontSize", parseInt(font) - 1);
+        }
     }
 }
-
